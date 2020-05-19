@@ -1,0 +1,29 @@
+# Built application files and Maven
+*~
+/target/
+/.classpath
+/.project
+/.settings/
+/test-output
+
+# Compiled class files
+*.class
+
+# Log Files
+*.log
+
+# About IntelliJ
+*.iml
+/.idea/
+/out/
+*.deploy.yaml
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+dependency-reduced-pom.xml
