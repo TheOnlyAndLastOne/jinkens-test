@@ -7,4 +7,4 @@ ENV RAWJAR=jenkins-test-0.0.1-SNAPSHOT.jar
 ENV TARGETJAR=app.jar
 
 ADD target/jenkins-test-0.0.1-SNAPSHOT.jar $TARGETJAR
-ENTRYPOINT ["java", "-jar", "$TARGETJAR"]
+ENTRYPOINT java -jar $TARGETJAR
