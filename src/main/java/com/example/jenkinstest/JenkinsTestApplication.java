@@ -15,7 +15,7 @@ public class JenkinsTestApplication {
 
     @RequestMapping("/index")
     public String index(){
-        return "hello jenkins";
+        return "hello jenkins update";
     }
 
 }
