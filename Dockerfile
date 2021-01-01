@@ -1,4 +1,4 @@
-FROM java:8
+
 FROM carsharing/alpine-oraclejdk8-bash
 
 WORKDIR /opt/test/docker
